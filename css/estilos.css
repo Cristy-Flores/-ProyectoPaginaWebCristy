@@ -1,6 +1,30 @@
 .menuCabecera{
-background-color: #be1622;
+background-color: #AADAE5;
 width: 100%;
+}
+.ListaMenu 
+li{
+    display:inline;
+    padding: 10px;
+    border-right: solid 2px black;
+}
+.ListaMenu{
+    padding: 10px;
+    text-align: right;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+li a{
+    text-decoration: none;
+}
+li a:hover{
+    color: #E2430C;
+    background: #e9a238;
+}
+
+
+.ListaMenu li:last-child{
+border-right: none;
 }
 *{
 padding:  0; 
@@ -8,8 +32,8 @@ margin: 0;
 }
 .banner{
     width: 100%;
-    height: 120px;
-    background-color: #1d70b8;
+    height: 350px;
+    background-image: url("../imagenes/estudio1.jpg");
 }
 .marcoColumnas{
     display: flex;
@@ -31,5 +55,5 @@ margin: 0;
     background-color: palevioletred;
 }
 .colorAzul{
-    background-color: palegreen;
+    background-color: #0F9ACE;
 }
