@@ -34,18 +34,28 @@ margin: 0;
     width: 100%;
     height: 350px;
     background-image: url("../imagenes/estudio1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y:50% ;
+
 }
+
+
+
 .marcoColumnas{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    
     gap: 10px;
 }
+.marcoColumnas img{
+     width:100%;}
 .columna{
     flex: 1;
     background-color: #e9a238;
-    border: 1px solid #f5580f;
-}
+    border: 1px solid #f5580f;}
+    
 .footer{
     width: 100%;
     height: 120px;
@@ -53,7 +63,34 @@ margin: 0;
 }
 .colorVerde{ 
     background-color: palevioletred;
+    
 }
 .colorAzul{
+    background-color: #0F9ACE;
+    
+}
+.formulario{
+    width: 50%;
+    padding: 10px;
+}
+input textarea{
+    width: 100%;
+    border-radius: 5px;
+}
+.form{
+    width: 80%;
+    padding: 18%;
+    margin: auto;
+}
+.imput{
+    width:100% ;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 10px;
+}
+textarea{width: 100%;margin: 10px;}
+.footer{
+    width: 100%;
+    height: 120px;
     background-color: #0F9ACE;
 }
